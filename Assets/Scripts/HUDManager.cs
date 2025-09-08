@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -37,7 +38,9 @@ public class HUDManager : MonoBehaviour
         if (Instance != null) return;
         try
         {
-            var canvases = FindObjectsOfType<Canvas>(true);
+            var canvases = Resources.FindObjectsOfTypeAll<Canvas>()
+                .Where(c => c != null && c.gameObject.scene.IsValid())
+                .ToArray();
             if (canvases != null && canvases.Length > 0)
             {
                 // En makul Canvas'a ekle

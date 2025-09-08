@@ -20,7 +20,9 @@ public static class MissingMaterialFixer
             Debug.LogWarning("MissingMaterialFixer: Diffuse_01_Fallback bulunamadı (Resources).");
         }
 
-        var allRenderers = Object.FindObjectsOfType<MeshRenderer>(true);
+        var allRenderers = Resources.FindObjectsOfTypeAll<MeshRenderer>()
+            .Where(r => r != null && r.gameObject.scene.IsValid())
+            .ToArray();
         foreach (var r in allRenderers)
         {
             bool updated = false;
@@ -62,7 +64,9 @@ public static class MissingMaterialFixer
         }
 
         // SkinnedMeshRenderer ihtimali
-        var skinned = Object.FindObjectsOfType<SkinnedMeshRenderer>(true);
+        var skinned = Resources.FindObjectsOfTypeAll<SkinnedMeshRenderer>()
+            .Where(r => r != null && r.gameObject.scene.IsValid())
+            .ToArray();
         foreach (var r in skinned)
         {
             bool updated = false;

@@ -56,3 +56,10 @@ Assets/Addressable*Data*/
 .idea/
 *.sln.iml
 
+# Sample assets to avoid bloating repository
+Assets/Samples/
+Assets/XR/
+
+# Project specific ignores
+Packages/packages-lock.json
+
