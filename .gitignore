@@ -1,0 +1,58 @@
+# Unity - recommended .gitignore
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Lightmap/Batcher caches
+[Aa]rtifacts/
+
+## User-specific
+[Uu]ser[Ss]ettings/
+*.userprefs
+
+## IDE
+.idea/
+.vscode/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.suo
+*.user
+*.booproj
+*.svd
+
+## Unity Asset meta
+*.pidb.meta
+*.pdb.meta
+
+## Crash/Reports
+sysinfo.txt
+
+## Builds
+*.apk
+*.aab
+*.xcodeproj/
+*.xcworkspace/
+
+## TextMesh Pro auto-generated
+Assets/TextMesh Pro/Resources/Font Settings/**
+
+## Addressables
+Assets/Addressable*Data*/
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
