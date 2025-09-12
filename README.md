@@ -1,4 +1,4 @@
-<img width="512" height="768" alt="ChatGPT Image 12 Eyl 2025 21_26_35" src="https://github.com/user-attachments/assets/dfb0940d-c20a-40fe-96df-af11358fafe4" />
+<img width="512" height="768" alt="" src="https://github.com/user-attachments/assets/dfb0940d-c20a-40fe-96df-af11358fafe4" />
 
 # 3D FPS Game
 
