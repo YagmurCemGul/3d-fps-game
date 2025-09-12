@@ -1,3 +1,4 @@
+<img width="1024" height="1536" alt="ChatGPT Image 12 Eyl 2025 21_26_35" src="https://github.com/user-attachments/assets/dfb0940d-c20a-40fe-96df-af11358fafe4" />
 # 3D FPS Game
 
 A first-person shooter game built with Unity 2022.3 and Universal Render Pipeline (URP).
