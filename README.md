@@ -1,4 +1,5 @@
-<img width="1536" height="1024" alt="ChatGPT Image 12 Eyl 2025 22_04_17" src="https://github.com/user-attachments/assets/616afb20-008e-4e9c-ba25-5570337c218e" />
+<img width="1472" height="704" alt="Gemini_Generated_Image_q9df7tq9df7tq9df" src="https://github.com/user-attachments/assets/67e08a72-204b-4e53-9376-36c05464fa21" />
+
 
 # 3D FPS Game
 
